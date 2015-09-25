@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		784CF6901BB4D91800CCBB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF68F1BB4D91800CCBB92 /* main.m */; };
+		784CF6931BB4D91800CCBB92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6921BB4D91800CCBB92 /* AppDelegate.m */; };
+		784CF6961BB4D91800CCBB92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6951BB4D91800CCBB92 /* ViewController.m */; };
+		784CF6991BB4D91900CCBB92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784CF6971BB4D91900CCBB92 /* Main.storyboard */; };
+		784CF69B1BB4D91900CCBB92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 784CF69A1BB4D91900CCBB92 /* Assets.xcassets */; };
+		784CF69E1BB4D91900CCBB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784CF69C1BB4D91900CCBB92 /* LaunchScreen.storyboard */; };
+		784CF6A91BB4D91900CCBB92 /* wisdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6A81BB4D91900CCBB92 /* wisdomTests.m */; };
+		784CF6B41BB4D91900CCBB92 /* wisdomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6B31BB4D91900CCBB92 /* wisdomUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		784CF6A51BB4D91900CCBB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784CF6831BB4D91800CCBB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784CF68A1BB4D91800CCBB92;
+			remoteInfo = wisdom;
+		};
+		784CF6B01BB4D91900CCBB92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 784CF6831BB4D91800CCBB92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 784CF68A1BB4D91800CCBB92;
+			remoteInfo = wisdom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		784CF68B1BB4D91800CCBB92 /* wisdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wisdom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CF68F1BB4D91800CCBB92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		784CF6911BB4D91800CCBB92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		784CF6921BB4D91800CCBB92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		784CF6941BB4D91800CCBB92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		784CF6951BB4D91800CCBB92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		784CF6981BB4D91900CCBB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		784CF69A1BB4D91900CCBB92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		784CF69D1BB4D91900CCBB92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		784CF69F1BB4D91900CCBB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784CF6A41BB4D91900CCBB92 /* wisdomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wisdomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CF6A81BB4D91900CCBB92 /* wisdomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wisdomTests.m; sourceTree = "<group>"; };
+		784CF6AA1BB4D91900CCBB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784CF6AF1BB4D91900CCBB92 /* wisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		784CF6B31BB4D91900CCBB92 /* wisdomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wisdomUITests.m; sourceTree = "<group>"; };
+		784CF6B51BB4D91900CCBB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784CF6881BB4D91800CCBB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6A11BB4D91900CCBB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6AC1BB4D91900CCBB92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		784CF6821BB4D91800CCBB92 = {
+			isa = PBXGroup;
+			children = (
+				784CF68D1BB4D91800CCBB92 /* wisdom */,
+				784CF6A71BB4D91900CCBB92 /* wisdomTests */,
+				784CF6B21BB4D91900CCBB92 /* wisdomUITests */,
+				784CF68C1BB4D91800CCBB92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		784CF68C1BB4D91800CCBB92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				784CF68B1BB4D91800CCBB92 /* wisdom.app */,
+				784CF6A41BB4D91900CCBB92 /* wisdomTests.xctest */,
+				784CF6AF1BB4D91900CCBB92 /* wisdomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		784CF68D1BB4D91800CCBB92 /* wisdom */ = {
+			isa = PBXGroup;
+			children = (
+				784CF6911BB4D91800CCBB92 /* AppDelegate.h */,
+				784CF6921BB4D91800CCBB92 /* AppDelegate.m */,
+				784CF6941BB4D91800CCBB92 /* ViewController.h */,
+				784CF6951BB4D91800CCBB92 /* ViewController.m */,
+				784CF6971BB4D91900CCBB92 /* Main.storyboard */,
+				784CF69A1BB4D91900CCBB92 /* Assets.xcassets */,
+				784CF69C1BB4D91900CCBB92 /* LaunchScreen.storyboard */,
+				784CF69F1BB4D91900CCBB92 /* Info.plist */,
+				784CF68E1BB4D91800CCBB92 /* Supporting Files */,
+			);
+			path = wisdom;
+			sourceTree = "<group>";
+		};
+		784CF68E1BB4D91800CCBB92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				784CF68F1BB4D91800CCBB92 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		784CF6A71BB4D91900CCBB92 /* wisdomTests */ = {
+			isa = PBXGroup;
+			children = (
+				784CF6A81BB4D91900CCBB92 /* wisdomTests.m */,
+				784CF6AA1BB4D91900CCBB92 /* Info.plist */,
+			);
+			path = wisdomTests;
+			sourceTree = "<group>";
+		};
+		784CF6B21BB4D91900CCBB92 /* wisdomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				784CF6B31BB4D91900CCBB92 /* wisdomUITests.m */,
+				784CF6B51BB4D91900CCBB92 /* Info.plist */,
+			);
+			path = wisdomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		784CF68A1BB4D91800CCBB92 /* wisdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784CF6B81BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdom" */;
+			buildPhases = (
+				784CF6871BB4D91800CCBB92 /* Sources */,
+				784CF6881BB4D91800CCBB92 /* Frameworks */,
+				784CF6891BB4D91800CCBB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wisdom;
+			productName = wisdom;
+			productReference = 784CF68B1BB4D91800CCBB92 /* wisdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		784CF6A31BB4D91900CCBB92 /* wisdomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784CF6BB1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomTests" */;
+			buildPhases = (
+				784CF6A01BB4D91900CCBB92 /* Sources */,
+				784CF6A11BB4D91900CCBB92 /* Frameworks */,
+				784CF6A21BB4D91900CCBB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784CF6A61BB4D91900CCBB92 /* PBXTargetDependency */,
+			);
+			name = wisdomTests;
+			productName = wisdomTests;
+			productReference = 784CF6A41BB4D91900CCBB92 /* wisdomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		784CF6AE1BB4D91900CCBB92 /* wisdomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 784CF6BE1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomUITests" */;
+			buildPhases = (
+				784CF6AB1BB4D91900CCBB92 /* Sources */,
+				784CF6AC1BB4D91900CCBB92 /* Frameworks */,
+				784CF6AD1BB4D91900CCBB92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				784CF6B11BB4D91900CCBB92 /* PBXTargetDependency */,
+			);
+			name = wisdomUITests;
+			productName = wisdomUITests;
+			productReference = 784CF6AF1BB4D91900CCBB92 /* wisdomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		784CF6831BB4D91800CCBB92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = wangxu;
+				TargetAttributes = {
+					784CF68A1BB4D91800CCBB92 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					784CF6A31BB4D91900CCBB92 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 784CF68A1BB4D91800CCBB92;
+					};
+					784CF6AE1BB4D91900CCBB92 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 784CF68A1BB4D91800CCBB92;
+					};
+				};
+			};
+			buildConfigurationList = 784CF6861BB4D91800CCBB92 /* Build configuration list for PBXProject "wisdom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 784CF6821BB4D91800CCBB92;
+			productRefGroup = 784CF68C1BB4D91800CCBB92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				784CF68A1BB4D91800CCBB92 /* wisdom */,
+				784CF6A31BB4D91900CCBB92 /* wisdomTests */,
+				784CF6AE1BB4D91900CCBB92 /* wisdomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		784CF6891BB4D91800CCBB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CF69E1BB4D91900CCBB92 /* LaunchScreen.storyboard in Resources */,
+				784CF69B1BB4D91900CCBB92 /* Assets.xcassets in Resources */,
+				784CF6991BB4D91900CCBB92 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6A21BB4D91900CCBB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6AD1BB4D91900CCBB92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784CF6871BB4D91800CCBB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CF6961BB4D91800CCBB92 /* ViewController.m in Sources */,
+				784CF6931BB4D91800CCBB92 /* AppDelegate.m in Sources */,
+				784CF6901BB4D91800CCBB92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6A01BB4D91900CCBB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CF6A91BB4D91900CCBB92 /* wisdomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		784CF6AB1BB4D91900CCBB92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				784CF6B41BB4D91900CCBB92 /* wisdomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		784CF6A61BB4D91900CCBB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784CF68A1BB4D91800CCBB92 /* wisdom */;
+			targetProxy = 784CF6A51BB4D91900CCBB92 /* PBXContainerItemProxy */;
+		};
+		784CF6B11BB4D91900CCBB92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 784CF68A1BB4D91800CCBB92 /* wisdom */;
+			targetProxy = 784CF6B01BB4D91900CCBB92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		784CF6971BB4D91900CCBB92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784CF6981BB4D91900CCBB92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		784CF69C1BB4D91900CCBB92 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				784CF69D1BB4D91900CCBB92 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		784CF6B61BB4D91900CCBB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		784CF6B71BB4D91900CCBB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		784CF6B91BB4D91900CCBB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wisdom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		784CF6BA1BB4D91900CCBB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wisdom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		784CF6BC1BB4D91900CCBB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wisdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wisdom.app/wisdom";
+			};
+			name = Debug;
+		};
+		784CF6BD1BB4D91900CCBB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = wisdomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wisdom.app/wisdom";
+			};
+			name = Release;
+		};
+		784CF6BF1BB4D91900CCBB92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wisdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wisdom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		784CF6C01BB4D91900CCBB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = wisdomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wisdomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = wisdom;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		784CF6861BB4D91800CCBB92 /* Build configuration list for PBXProject "wisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CF6B61BB4D91900CCBB92 /* Debug */,
+				784CF6B71BB4D91900CCBB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		784CF6B81BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CF6B91BB4D91900CCBB92 /* Debug */,
+				784CF6BA1BB4D91900CCBB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		784CF6BB1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CF6BC1BB4D91900CCBB92 /* Debug */,
+				784CF6BD1BB4D91900CCBB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		784CF6BE1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				784CF6BF1BB4D91900CCBB92 /* Debug */,
+				784CF6C01BB4D91900CCBB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 784CF6831BB4D91800CCBB92 /* Project object */;
+}
