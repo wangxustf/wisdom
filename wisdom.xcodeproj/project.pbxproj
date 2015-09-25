@@ -15,6 +15,8 @@
 		784CF69E1BB4D91900CCBB92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 784CF69C1BB4D91900CCBB92 /* LaunchScreen.storyboard */; };
 		784CF6A91BB4D91900CCBB92 /* wisdomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6A81BB4D91900CCBB92 /* wisdomTests.m */; };
 		784CF6B41BB4D91900CCBB92 /* wisdomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6B31BB4D91900CCBB92 /* wisdomUITests.m */; };
+		784CF6C51BB4DB2200CCBB92 /* NSDate+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 784CF6C41BB4DB2200CCBB92 /* NSDate+Addition.m */; settings = {ASSET_TAGS = (); }; };
+		786590951BB4EC2900D49D7E /* 1 in Resources */ = {isa = PBXBuildFile; fileRef = 786590941BB4EC2900D49D7E /* 1 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		784CF6AF1BB4D91900CCBB92 /* wisdomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wisdomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		784CF6B31BB4D91900CCBB92 /* wisdomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wisdomUITests.m; sourceTree = "<group>"; };
 		784CF6B51BB4D91900CCBB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		784CF6C31BB4DB2200CCBB92 /* NSDate+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Addition.h"; sourceTree = "<group>"; };
+		784CF6C41BB4DB2200CCBB92 /* NSDate+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Addition.m"; sourceTree = "<group>"; };
+		786590941BB4EC2900D49D7E /* 1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,8 @@
 		784CF68D1BB4D91800CCBB92 /* wisdom */ = {
 			isa = PBXGroup;
 			children = (
+				784CF6C31BB4DB2200CCBB92 /* NSDate+Addition.h */,
+				784CF6C41BB4DB2200CCBB92 /* NSDate+Addition.m */,
 				784CF6911BB4D91800CCBB92 /* AppDelegate.h */,
 				784CF6921BB4D91800CCBB92 /* AppDelegate.m */,
 				784CF6941BB4D91800CCBB92 /* ViewController.h */,
@@ -110,6 +117,7 @@
 				784CF69C1BB4D91900CCBB92 /* LaunchScreen.storyboard */,
 				784CF69F1BB4D91900CCBB92 /* Info.plist */,
 				784CF68E1BB4D91800CCBB92 /* Supporting Files */,
+				786590941BB4EC2900D49D7E /* 1 */,
 			);
 			path = wisdom;
 			sourceTree = "<group>";
@@ -245,6 +253,7 @@
 			files = (
 				784CF69E1BB4D91900CCBB92 /* LaunchScreen.storyboard in Resources */,
 				784CF69B1BB4D91900CCBB92 /* Assets.xcassets in Resources */,
+				786590951BB4EC2900D49D7E /* 1 in Resources */,
 				784CF6991BB4D91900CCBB92 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +281,7 @@
 			files = (
 				784CF6961BB4D91800CCBB92 /* ViewController.m in Sources */,
 				784CF6931BB4D91800CCBB92 /* AppDelegate.m in Sources */,
+				784CF6C51BB4DB2200CCBB92 /* NSDate+Addition.m in Sources */,
 				784CF6901BB4D91800CCBB92 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +506,7 @@
 				784CF6BA1BB4D91900CCBB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		784CF6BB1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +515,7 @@
 				784CF6BD1BB4D91900CCBB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		784CF6BE1BB4D91900CCBB92 /* Build configuration list for PBXNativeTarget "wisdomUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +524,7 @@
 				784CF6C01BB4D91900CCBB92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
